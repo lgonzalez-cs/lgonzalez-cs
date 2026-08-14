@@ -1,1 +1,215 @@
+/* =========================================
+   Luis Gonzalez - CS-499 ePortfolio
+   ========================================= */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #263238;
+    background-color: #f4f7f9;
+}
+
+/* =========================================
+   Header
+   ========================================= */
+
+header {
+    background: linear-gradient(135deg, #12355b, #1d5d8f);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.25rem;
+    color: #e1edf5;
+}
+
+/* =========================================
+   Navigation
+   ========================================= */
+
+nav {
+    background-color: #0d263d;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 15px;
+    padding: 8px 5px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #66c7f4;
+}
+
+/* =========================================
+   Main Content
+   ========================================= */
+
+main {
+    max-width: 1050px;
+    margin: 40px auto;
+    padding: 0 25px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #12355b;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #66c7f4;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #1d5d8f;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+/* =========================================
+   Artifact Highlight
+   ========================================= */
+
+#artifacts {
+    border-left: 5px solid #1d5d8f;
+}
+
+#artifacts h3 {
+    margin-top: 10px;
+}
+
+/* =========================================
+   Links
+   ========================================= */
+
+a {
+    color: #1769aa;
+}
+
+a:hover {
+    color: #0d3f66;
+}
+
+/* =========================================
+   Buttons
+   ========================================= */
+
+.button {
+    display: inline-block;
+    background-color: #1d5d8f;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease,
+                transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #12355b;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* =========================================
+   Footer
+   ========================================= */
+
+footer {
+    background-color: #0d263d;
+    color: #d8e4ec;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* =========================================
+   Mobile Responsive Design
+   ========================================= */
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 50px 15px;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a {
+        margin: 4px 8px;
+        font-size: 0.95rem;
+    }
+
+    main {
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 25px 20px;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+    section h3 {
+        font-size: 1.2rem;
+    }
+}
