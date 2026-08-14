@@ -46,7 +46,6 @@ header {
     border: 4px solid white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     overflow: hidden;
-    background-color: white;
     flex-shrink: 0;
 }
 
@@ -54,7 +53,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: scale(0.90);
+    object-position: center 35%;
 }
 
 .hero-text {
