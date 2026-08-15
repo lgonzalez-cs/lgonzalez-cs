@@ -128,6 +128,11 @@ section p {
     margin-bottom: 15px;
 }
 
+#self-assessment p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
 /* =========================================
    Artifact Highlight
    ========================================= */
