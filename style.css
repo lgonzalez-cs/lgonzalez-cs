@@ -193,12 +193,14 @@ Artifact Links
 .artifact-buttons {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 12px;
 }
 
 .artifact-button {
     display: block;
-    width: 100%;
+    width: 75%;
+    max-width: 500px;
     text-align: center;
     background-color: #1d5d8f;
     color: white;
