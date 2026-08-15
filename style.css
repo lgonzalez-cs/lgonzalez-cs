@@ -221,7 +221,7 @@ section li {
     display: flex;
     width: 100%;
     max-width: 1000px;
-    gap: 20px;
+    gap: 24px;
     justify-content: center;
 }
 
