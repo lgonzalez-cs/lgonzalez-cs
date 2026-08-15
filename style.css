@@ -142,6 +142,11 @@ section li {
     margin-bottom: 20px;
 }
 
+#code-review p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
 /* =========================================
    Artifact Highlight
    ========================================= */
@@ -160,7 +165,6 @@ section li {
 }
 
 #artifacts ul {
-    text-align: justify;
     padding-left: 15px;
 }
 
