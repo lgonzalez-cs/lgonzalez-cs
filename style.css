@@ -2,6 +2,10 @@
    Luis Gonzalez - CS-499 ePortfolio
    ========================================= */
 
+/* =========================================
+   Global Reset
+   ========================================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -137,10 +141,18 @@ section li {
     margin-bottom: 8px;
 }
 
+/* =========================================
+   Self Assessment
+   ========================================= */
+
 #self-assessment p {
     text-align: justify;
     margin-bottom: 20px;
 }
+
+/* =========================================
+   Code Review
+   ========================================= */
 
 #code-review p {
     text-align: justify;
@@ -169,8 +181,8 @@ section li {
 }
 
 /* =========================================
-Artifact Links
-========================================= */
+   Artifact Links
+   ========================================= */
 
 .artifact-links {
     background-color: #f4f7f9;
@@ -190,6 +202,10 @@ Artifact Links
     margin-bottom: 15px;
 }
 
+/* =========================================
+   Artifact Button Container
+   ========================================= */
+
 .artifact-buttons {
     display: flex;
     flex-direction: column;
@@ -197,10 +213,24 @@ Artifact Links
     gap: 12px;
 }
 
+/* =========================================
+   Artifact + Narrative Button Row
+   ========================================= */
+
+.artifact-button-row {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    gap: 12px;
+}
+
+/* =========================================
+   Artifact Buttons
+   ========================================= */
+
 .artifact-button {
     display: block;
     width: 50%;
-    max-width: 500px;
     text-align: center;
     background-color: #1d5d8f;
     color: white;
@@ -208,8 +238,9 @@ Artifact Links
     padding: 12px 18px;
     border-radius: 6px;
     font-weight: bold;
-    transition: background-color 0.3s ease,
-                transform 0.2s ease;
+    transition:
+        background-color 0.3s ease,
+        transform 0.2s ease;
 }
 
 .artifact-button:hover {
@@ -219,8 +250,8 @@ Artifact Links
 }
 
 /* =========================================
-Artifact Sections
-========================================= */
+   Artifact Sections
+   ========================================= */
 
 .artifact-section {
     margin-top: 35px;
@@ -231,7 +262,7 @@ Artifact Sections
 }
 
 /* =========================================
-   Links
+   General Links
    ========================================= */
 
 a {
@@ -243,7 +274,7 @@ a:hover {
 }
 
 /* =========================================
-   Buttons
+   General Buttons
    ========================================= */
 
 .button {
@@ -255,8 +286,9 @@ a:hover {
     margin-top: 10px;
     border-radius: 6px;
     font-weight: bold;
-    transition: background-color 0.3s ease,
-                transform 0.2s ease;
+    transition:
+        background-color 0.3s ease,
+        transform 0.2s ease;
 }
 
 .button:hover {
@@ -283,8 +315,8 @@ footer p {
 }
 
 /* =========================================
-Mobile Responsive Design
-========================================= */
+   Mobile Responsive Design
+   ========================================= */
 
 @media (max-width: 700px) {
 
@@ -338,5 +370,19 @@ Mobile Responsive Design
     .profile-photo {
         width: 130px;
         height: 130px;
+    }
+
+    /* Stack artifact and narrative buttons on smaller screens */
+    .artifact-button-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .artifact-button {
+        width: 100%;
+    }
+
+    .artifact-links {
+        padding: 18px 15px;
     }
 }
