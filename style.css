@@ -192,16 +192,18 @@ Artifact Links
 
 .artifact-buttons {
     display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .artifact-button {
-    display: inline-block;
+    display: block;
+    width: 100%;
+    text-align: center;
     background-color: #1d5d8f;
     color: white;
     text-decoration: none;
-    padding: 10px 18px;
+    padding: 12px 18px;
     border-radius: 6px;
     font-weight: bold;
     transition: background-color 0.3s ease,
@@ -324,14 +326,6 @@ Mobile Responsive Design
 
     .hero-content {
         flex-direction: column;
-        text-align: center;
-    }
-
-    .artifact-buttons {
-        flex-direction: column;
-    }
-
-    .artifact-button {
         text-align: center;
     }
 
