@@ -1,7 +1,7 @@
 ## CS-499 Capstone Links
 
 ### ePortfolio
-https://lgonzalez-cs.github.io/lgonzalez-cs/
+[View ePortfolio](https://lgonzalez-cs.github.io/lgonzalez-cs/)
 
 ### Code Review Video
-https://youtu.be/NPKMs-aR7bM
+[Watch Code Review Video](https://youtu.be/NPKMs-aR7bM)
